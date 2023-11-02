@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400;500&display=swap');
+
+body {
+    background-color: rgb(10, 10, 10) !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Rubik', sans-serif !important;
+    color: white !important;
+}
+
+.bg-dark-50 {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+.ls-1 {
+    letter-spacing: 1px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.contact-bg {
+    background-image: url('./assets/icons/contact-bg.svg'), url('./assets/icons/contact-bg.svg');
+    background-position: 92% 65%, 20% 10%;
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
+    background-color: rgb(20, 20, 20);
+}
+
+.scale {
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.scale img {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 6px;
+}
+
+.scale:hover img,
+.scale:focus img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
