@@ -2,6 +2,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link, NavLink } from "react-router-dom"
 import icon_ins from '../../assets/icons/ins.svg'
+import logoImg from '../../assets/logo.svg'
 
 const Navbar = () => {
 
@@ -9,7 +10,9 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg bg-dark-50 navbar-dark">
                 <div className="container">
-                    <NavLink className="navbar-brand" to="/">KD Design</NavLink>
+                    <NavLink className="navbar-brand" to="/">
+                        <img src={logoImg} alt="" style={{ width: "100px" }} />
+                    </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -33,7 +36,7 @@ const Navbar = () => {
                         </ul>
                         <div className="d-flex">
                             <Link to='https://www.instagram.com/kd_design_tm' target="_blank"><img src={icon_ins} alt="" style={{ width: "30px" }} /></Link>
-                            <Link to='mailto:kemalhojayew04@gmail.com' className="btn btn-outline-light btn-sm rounded-5 px-3 ms-3">Habarlaş <FontAwesomeIcon icon={faArrowRight} className="ms-2 pt-1" /></Link>
+                            <Link to='mailto:kemalhojayew04@gmail.com' className="btn btn-outline-light btn-sm rounded-5 px-3 ms-3">Habarlaşmak <FontAwesomeIcon icon={faArrowRight} className="ms-2 pt-1" /></Link>
                         </div>
                     </div>
                 </div>

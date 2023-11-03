@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row justify-content-center text-center">
                         <div className="col-xl-12">
-                            © All rights reserved by KD Design (2023 - {date} )
+                            © Ähli hukuklary "KD Design" tarapyndan goragly (2023 - {date} )
                         </div>
                     </div>
                 </div>

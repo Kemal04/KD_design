@@ -47,7 +47,7 @@ const Home = () => {
                     Hyzmat berýän hünärlerimiz
                 </div>
                 <div className="row">
-                    <div className="col-xl-4" data-aos="fade-up">
+                    <div className="col-xl-4 mb-4" data-aos="fade-up">
                         <div className="card border border-dark rounded-4 bg-dark-50 text-secondary" style={{ width: "370px" }}>
                             <div className="card-body">
                                 <div className="h4 mt-4 mb-3">Web sahypalary</div>
@@ -58,7 +58,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-4" data-aos="fade-up">
+                    <div className="col-xl-4 mb-4" data-aos="fade-up">
                         <div className="card border border-dark rounded-4 bg-dark-50 text-secondary" style={{ width: "370px" }}>
                             <div className="card-body">
                                 <div className="h4 mt-4 mb-3">Dizaýn, logo we ş.m.</div>
@@ -69,7 +69,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-4" data-aos="fade-up">
+                    <div className="col-xl-4 mb-4" data-aos="fade-up">
                         <div className="card border border-dark rounded-4 bg-dark-50 text-secondary" style={{ width: "370px" }}>
                             <div className="card-body">
                                 <div className="h4 mt-4 mb-3">Reklamalar we wideolar</div>
@@ -187,19 +187,19 @@ const Home = () => {
                     </div>
                     <div className="col-xl-6 border-start border-secondary">
                         <div className="row">
-                            <div className="col-xl-6 text-center border-end border-bottom border-secondary py-5">
+                            <div className="col-xl-6 col-6 text-center border-end border-bottom border-secondary py-5">
                                 <div className="mb-2 h5" data-aos="fade-down">Websites</div>
                                 <div className="fs-18" data-aos="fade-down">6</div>
                             </div>
-                            <div className="col-xl-6 text-center border-bottom border-secondary py-5">
+                            <div className="col-xl-6 col-6 text-center border-bottom border-secondary py-5">
                                 <div className="mb-2 h5" data-aos="fade-down">Logos</div>
                                 <div className="fs-18" data-aos="fade-down">3</div>
                             </div>
-                            <div className="col-xl-6 text-center border-end border-secondary py-5">
+                            <div className="col-xl-6 col-6 text-center border-end border-secondary py-5">
                                 <div className="mb-2 h5" data-aos="fade-down">Banners</div>
                                 <div className="fs-18" data-aos="fade-down">0</div>
                             </div>
-                            <div className="col-xl-6 text-center py-5">
+                            <div className="col-xl-6 col-6 text-center py-5">
                                 <div className="mb-2 h5" data-aos="fade-down">Videos</div>
                                 <div className="fs-18" data-aos="fade-down">0</div>
                             </div>
@@ -215,7 +215,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xl-3" data-aos="fade-down">
+                    <div className="col-xl-3 mb-4" data-aos="fade-down">
                         <div className="card border-secondary rounded-3 bg-dark-50">
                             <div className="card-body">
                                 <img src={reactImg} alt="" className="img-fluid" style={{ height: "160px" }} />
@@ -224,7 +224,7 @@ const Home = () => {
                         <div className="my-3"> Isledik web sahypany yokary derejede we çalt yerine yetirilýär. </div>
                         <Link to="" className="btn btn-outline-light px-4 py-1 rounded-5"><FontAwesomeIcon icon={faArrowRight} /></Link>
                     </div>
-                    <div className="col-xl-3" data-aos="fade-down">
+                    <div className="col-xl-3 mb-4" data-aos="fade-down">
                         <div className="card border-secondary rounded-3 bg-dark-50">
                             <div className="card-body">
                                 <img src={figmaImg} alt="" className="img-fluid" style={{ height: "160px" }} />
@@ -233,7 +233,7 @@ const Home = () => {
                         <div className="my-3"> Figma arkaly web sahypalary üçin şablonlar taýýarlanýar. </div>
                         <Link to="" className="btn btn-outline-light px-4 py-1 rounded-5"><FontAwesomeIcon icon={faArrowRight} /></Link>
                     </div>
-                    <div className="col-xl-3" data-aos="fade-down">
+                    <div className="col-xl-3 mb-4" data-aos="fade-down">
                         <div className="card border-secondary rounded-3 bg-dark-50">
                             <div className="card-body">
                                 <img src={designImg} alt="" className="img-fluid" style={{ height: "160px" }} />
@@ -242,7 +242,7 @@ const Home = () => {
                         <div className="my-3"> Dizaýn boýunça islendik Logo'lar, afişalar we başgada birnäçe işler. </div>
                         <Link to="" className="btn btn-outline-light px-4 py-1 rounded-5"><FontAwesomeIcon icon={faArrowRight} /></Link>
                     </div>
-                    <div className="col-xl-3" data-aos="fade-down">
+                    <div className="col-xl-3 mb-4" data-aos="fade-down">
                         <div className="card border-secondary rounded-3 bg-dark-50">
                             <div className="card-body">
                                 <img src={pcImg} alt="" className="img-fluid" style={{ height: "160px" }} />
